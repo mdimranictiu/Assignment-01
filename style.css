@@ -174,7 +174,7 @@ main{
     cursor: pointer;
 }
 .MyInsp{
-margin-top: 88px;
+margin-top: 70px;
 }
 .MyInsp h1{
     text-align: center;
@@ -222,6 +222,7 @@ margin-top: 48px;
     text-align: center;
     font-size: 32px;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 .myCurrentTarget .subtitle{
     font-size: 16px;
