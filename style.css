@@ -1,8 +1,17 @@
+
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -31,6 +40,7 @@ nav .download-btn {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 }
 
 .hero {
@@ -80,6 +90,7 @@ nav .download-btn {
 .hero-container .hero-btn {
     padding: 21px 24px;
     border-radius: 5px;
+    cursor: pointer;
 
     background: rgb(13, 19, 33);
     color: white;
@@ -319,4 +330,19 @@ padding: 17px 20px 17px 20px;
 border: none;
 cursor: pointer;
 }
-
+footer{
+    width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin:80px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+footer h3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
