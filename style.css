@@ -329,7 +329,7 @@ main {
 }
 
 .form {
-    margin-top: 24px;
+    margin-top: 40px;
 }
 
 .form form input[type='text'] {
@@ -338,7 +338,6 @@ main {
     padding: 0px 10px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
-
     background: rgb(255, 255, 255);
     outline: none;
 }
